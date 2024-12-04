@@ -1,0 +1,7 @@
+CREATE TABLE user(
+    id VARCHAR(36) PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL,
+    localizacao VARCHAR(255) NOT NULL,
+    pontos INT NOT NULL
+);
